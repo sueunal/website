@@ -25,13 +25,13 @@ body {
 }
 
   * { margin: 0; padding: 0; }
-  li{ list-style: none; color: black; }
+  li{ list-style: none; color: black; font-family:Chalkboard; }
   a{ text-decoration: none; }
 
 
 
     header{height : 75px; background-color: #006f84; border: 1px solid #253342; position: fixed; width: 100%; z-index: 9999; top: 0; left: 0}
-    h1{ color:white; line-height: 75px;  float: left;}  .menu{float:right;}
+    h1{ color:white; line-height: 75px;  float: left; font-family: Nanum Pen Script;}  .menu{float:right;}
 
 
 
