@@ -1,57 +1,203 @@
-body {
-  background-image: : url(tree.jpg)no-repeat center center: fixed;
-     -webkit-background-size: cover;
-   -moz-background-size: cover;
-   -o-background-size: cover;
-   background-size: cover;
+html {
+    background-image: url(tree.jpg)no-repeat center center: fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
 
 }
 img {
-	width: 100px;
-	height: 100px;
-	border-radius: 50px;
+    width: 100px;
+    height: 100px;
+    border-radius: 50px;
 
 }
-#pos1{
-        position: fixed; top: 160px; left:  700px;
-        width: 500px; height: 100px;
-      }
- #pos2{
- 	position: fixed; top: 210px; left: 500px;
- 	width: 500px; height: 100px;
- }
- #pos3{
- 	position: fixed; top: 205px; left:910px;
- 	width: 500px height: 100;
- }
- #pos4{
- 	position: fixed; top: 330px; left:350px;
- 	width: 500px height: 100;
- }
- #pos5{
- 	position: fixed; top: 320px; left: 1100px;
- 	width: 500px; height: 100px;
- }
- #pos6{
- 	position: fixed; top: 480px; left:1200px;
- 	width: 500px height: 100;
- }
- #pos7{
- 	position: fixed; top: 460px; left:250px;
- 	width: 500px height: 100;
- }
+#pos1 {
+    border-radius: 200px;
+    background: url("star.jpg");
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
 
+    position: fixed;
+    top: 160px;
+    left: 650px;
+    width: 100px;
+    height: 100px;
+    -webkit-transition: width 10s, height 10s, background:url(star.jpg) 2s, -webkit-transform 2s;
+    transition: width 10s, height 10s, background-color 2s, transform 10s;
 
+}
+#pos1:hover {
+    border-radius: 400px;
+    background: url("teacher.png");
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    width: 500px;
+    height: 500px;
 
+}
+#pos2 {
+    border-radius: 200px;
+    background: url("risistance.png");
 
-#radius-box{
-	width: 100px;
-	height: 100px;
-	background-image: url('');
-	border-radius: 150px;
-	display: table-cell;
-	vertical-align: middle;
-	color: #ffffff;
-	font-weight: bold;
-	text-align: center;
+    position: fixed;
+    top: 210px;
+    left: 450px;
+    width: 100px;
+    height: 100px;
+    -webkit-transition: width 2s, height 2s, background-color 2s, -webkit-transform 2s;
+    transition: width 2s, height 2s, background-color 2s, transform 3s;
+
+}
+#pos2:hover {
+    border-radius: 400px;
+    background: url("girl.jpeg");
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    width: 500px;
+    height: 500px;
+}
+#pos3 {
+    border-radius: 400px;
+    background: url("transistor.jpg");
+
+    position: fixed;
+    top: 205px;
+    left: 860px;
+    width:500px height: 100;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    width: 100px;
+    height: 100px;
+    -webkit-transition: width 2s, height 2s, background-color 2s, -webkit-transform 2s;
+    transition: width 2s, height 2s, background-color 2s, transform 3s;
+
+}
+#pos3:hover {
+    border-radius: 400px;
+    background: url("athletics.jpeg");
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    width: 500px;
+    height: 500px;
+
+}
+#pos4 {
+    border-radius: 400px;
+    background-image: url("led.jpg");
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+
+    position: fixed;
+    top: 330px;
+    left: 300px;
+
+    width: 100px;
+    height: 100px;
+    -webkit-transition: width 2s, height 2s, background-color 2s, -webkit-transform 2s;
+    transition: width 2s, height 2s, background-color 2s, transform 3s;
+
+}
+#pos4:hover {
+    border-radius: 400px;
+    background: url("cheerup.jpeg");
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    width: 500px;
+    height: 500px;
+}
+
+#pos5 {
+    border-radius: 400px;
+    background: url("ic.jpg");
+
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    width: 100px;
+    height: 100px;
+    -webkit-transition: width 2s, height 2s, background-color 2s, -webkit-transform 2s;
+    transition: width 2s, height 2s, background-color 2s, transform 3s;
+
+    position: fixed;
+    top: 320px;
+    left: 1050px;
+}
+#pos5:hover {
+    border-radius: 400px;
+    background: url("thank.jpeg");
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    width: 500px;
+    height: 500px;
+}
+#pos6 {
+    border-radius: 400px;
+    background: url("camp.jpeg");
+
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    width: 100px;
+    height: 100px;
+    -webkit-transition: width 2s, height 2s, background-color 2s, -webkit-transform 2s;
+    transition: width 2s, height 2s, background-color 2s, transform 3s;
+
+    position: fixed;
+    top: 480px;
+    left: 1150px;
+}
+#pos6:hover {
+    border-radius: 400px;
+    background: url("camp.jpeg");
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    width: 500px;
+    height: 500px;
+}
+#pos7 {
+    border-radius: 400px;
+    background: url("camp2.jpeg");
+
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    width: 100px;
+    height: 100px;
+    -webkit-transition: width 2s, height 2s, background-color 2s, -webkit-transform 2s;
+    transition: width 2s, height 2s, background-color 2s, transform 3s;
+
+    position: fixed;
+    top: 460px;
+    left: 200px;
+}
+#pos7:hover {
+    border-radius: 400px;
+    background: url("camp2.jpeg");
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    width: 500px;
+    height: 500px;
+}
+
+#radius-box {
+    width: 100px;
+    height: 100px;
+    background-image: url("");
+    border-radius: 150px;
+    display: table-cell;
+    vertical-align: middle;
+    color: #ffffff;
+    font-weight: bold;
+    text-align: center;
 }

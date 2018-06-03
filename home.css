@@ -1,47 +1,80 @@
-    <style type="text/css">
-    h1{
-        font-family: Chalkboard;
-        color:#white;
-        position: fixed;  
-        top: -0.5rem;
+ h1 {
+    font-family: Chalkboard;
+    color: #white;
+    position: fixed;
+    top: -0.5rem;
 
-    }
-        
+}
 
 body {
-   background: url(class.png) no-repeat center center fixed; 
-   -webkit-background-size: cover;
-   -moz-background-size: cover;
-   -o-background-size: cover;
-   background-size: cover;
-  font-family: "Helvetica Neue", Helvetica, Arials, sans;
+    background: url("class.png") no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    font-family: "Helvetica Neue", Helvetica, Arials, sans;
 }
 
 article {
-  height: 10vmax;
+    height: 10vmax;
 
 }
 
 body {
-  display: flex;
-  align-items: center;
-  justify-content: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 
-  * { margin: 0; padding: 0; }
-  li{ list-style: none; color: black; font-family:Chalkboard; }
-  a{ text-decoration: none; }
+* {
+    margin: 0;
+    padding: 0;
+}
+li {
+    list-style: none;
+    color: black;
+    font-family: Chalkboard;
+}
+a {
+    text-decoration: none;
+}
 
+header {
+    height: 75px;
+    background-color: #006f84;
+    border: 1px solid #253342;
+    position: fixed;
+    width: 100%;
+    z-index: 9999;
+    top: 0;
+    left: 0;
+}
+h1 {
+    color: white;
+    line-height: 75px;
+    float: left;
+    font-family: Nanum Pen Script;
+}
+.menu {
+    float: right;
+}
 
-
-    header{height : 75px; background-color: #006f84; border: 1px solid #253342; position: fixed; width: 100%; z-index: 9999; top: 0; left: 0}
-    h1{ color:white; line-height: 75px;  float: left; font-family: Nanum Pen Script;}  .menu{float:right;}
-
-
-
-    .menu{}
-    .menu li{ float:left; }
-    .menu a{line-height: 75px; color: white; padding: 0 15px;display: block;}
-    .wrapper{width: 1170px; margin: 0 auto;}
-    .clearfix{content: ''; display: block; clear: both;}  
-    </style>
+.menu {}
+.menu li {
+    float: left;
+}
+.menu a {
+    line-height: 75px;
+    color: white;
+    padding: 0 15px;
+    display: block;
+}
+.wrapper {
+    width: 1170px;
+    margin: 0 auto;
+}
+.clearfix {
+    content: '';
+    display: block;
+    clear: both;
+}

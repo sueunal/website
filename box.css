@@ -15,11 +15,45 @@ img {
 #pos1{
         position: fixed; top: 185px; left:  700px;
         width: 500px; height: 100px;
+            width: 100px;
+    height: 100px;
+    border-radius: 50px;
+            background-image: url(girl.jpeg);
+    -webkit-background-size:cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    width: 200px;
+    height: 200px;
+    -webkit-transition:width 2s, height 2s, background-color 2s, -webkit-transform 2s;
+    transition:width 2s, height 2s, background-color 2s, transform 2s;
+
+
       }
  #pos2{
-    position: fixed; top: 210px; left: 500px;
-    width: 500px; height: 100px;
+    border-radius: 200px;
+    background: url(girl.jpeg);
+        -webkit-background-size:cover;
+    -moz-background-size: cover; 
+    -o-background-size: cover;
+
+    position: fixed; top: 0px; left: 400px;
+    width: 400px; height: 400px;
+    -webkit-transition:width 2s, height 2s, background-color 2s, -webkit-transform 2s;
+    transition:width 2s, height 2s, background-color 2s, transform 3s;
+
+
  }
+ #pos2:hover{
+        border-radius: 400px;
+        background: url(girl.jpeg);
+        -webkit-background-size: cover;
+        -moz-background-size: cover;
+        -o-background-size: cover;
+    width: 700px;
+    height: 700px;
+
+ }
+
  #pos3{
     position: fixed; top: 205px; left:910px;
     width: 500px height: 100;
@@ -44,21 +78,22 @@ img {
     border-radius: 200px;
 
     position: fixed;
-    border-width: 1px;
+    border-width: 3px;
     display: block;
     background-image: url(girl.jpeg);
     -webkit-background-size:cover;
     -moz-background-size: cover;
     -o-background-size: cover;
-    width: 200px;
-    height: 200px;
-    -webkit-transition:width 2s, height 2s, background-color 2s, -webkit-transform 2s;
-    transition:width 2s, height 2s, background-color 2s, transform 2s;
+    width: 400px;
+    height: 400px;
+    -webkit-transition:width 5s, height 5s, background-color 2s, -webkit-transform 5s;
+    transition:width 5s, height 5s, background-color 5s, transform 5s;
 }
 .box:hover {
     left: 400px;
-    width:800px;
-    height:800px;
+    width:400px;
+    height: 400px;
+    background-image: url(tree.jpg);
     -webkit-transform:rotate(360deg);
     transform:rotate(360deg);
 }
