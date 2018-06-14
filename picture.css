@@ -1,5 +1,5 @@
 html {
-    background-image: url(tree.jpg)no-repeat center center: fixed;
+    background-image: url(tree.jpg);
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
@@ -14,7 +14,7 @@ img {
 }
 #pos1 {
     border-radius: 200px;
-    background: url("star.jpg");
+    background: url("teacher.png");
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
@@ -24,7 +24,7 @@ img {
     left: 650px;
     width: 100px;
     height: 100px;
-    -webkit-transition: width 10s, height 10s, background:url(star.jpg) 2s, -webkit-transform 2s;
+    -webkit-transition: width 10s, height 10s, background:url(.jpg) 2s, -webkit-transform 2s;
     transition: width 10s, height 10s, background-color 2s, transform 10s;
 
 }
@@ -40,7 +40,11 @@ img {
 }
 #pos2 {
     border-radius: 200px;
-    background: url("risistance.png");
+    background: url("girl.jpeg");
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+
 
     position: fixed;
     top: 210px;
@@ -62,7 +66,10 @@ img {
 }
 #pos3 {
     border-radius: 400px;
-    background: url("transistor.jpg");
+    background: url("athletics.jpeg");
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
 
     position: fixed;
     top: 205px;
@@ -79,17 +86,23 @@ img {
 }
 #pos3:hover {
     border-radius: 400px;
-    background: url("athletics.jpeg");
+    position: fixed;
+    top: 160px;
+    left: 600px;  
+      background: url("athletics.jpeg");
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
+        -webkit-transition: width 2s, height 2s, background-color 2s, -webkit-transform 2s;
+    transition: width 2s, height 2s, background-color 2s, transform 3s;
+
     width: 500px;
     height: 500px;
 
 }
 #pos4 {
     border-radius: 400px;
-    background-image: url("led.jpg");
+    background-image: url("cheerup.jpeg");
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
@@ -116,7 +129,7 @@ img {
 
 #pos5 {
     border-radius: 400px;
-    background: url("ic.jpg");
+    background: url("thank.jpeg");
 
     -webkit-background-size: cover;
     -moz-background-size: cover;
