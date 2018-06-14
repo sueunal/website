@@ -1,4 +1,4 @@
-html {
+body {
     background-image: url(tree.jpg);
     -webkit-background-size: cover;
     -moz-background-size: cover;
@@ -25,7 +25,7 @@ img {
     width: 100px;
     height: 100px;
     -webkit-transition: width 10s, height 10s, background:url(.jpg) 2s, -webkit-transform 2s;
-    transition: width 10s, height 10s, background-color 2s, transform 10s;
+    transition: width 3s, height 3s, background-color 2s, transform 3s;
 
 }
 #pos1:hover {
@@ -87,8 +87,6 @@ img {
 #pos3:hover {
     border-radius: 400px;
     position: fixed;
-    top: 160px;
-    left: 600px;  
       background: url("athletics.jpeg");
     -webkit-background-size: cover;
     -moz-background-size: cover;
